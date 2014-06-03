@@ -1,0 +1,45 @@
+body {
+	color: #5d5d5d;
+}
+
+form{margin: 5em 0 0 0;}
+
+#create_tags {
+	background: #ffffff;
+	min-height: 3em;
+	margin: 0 0 .5em 0;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1) inset;
+	border-radius: 5px;
+	border: 1px solid #d6d6d6;
+	padding: 10px 0 0 10px;
+	overflow: hidden;
+}
+
+#create_tags ul{ margin: 0; }
+#create_tags li {
+	list-style-type: none;
+	float: left;
+	font: bold 1em 'Lato',sans-serif;
+	margin: 0 10px 10px 0;
+}
+#create_tags li.tag_done {
+	background: #f4f4f4;
+	border-radius: 3px;
+	padding: .5em 1em;
+	box-shadow: 0 2px 0 rgba(0,0,0,.2);
+}
+
+#create_tags li span{
+	display: inline-block;
+	width: 13px; height: 13px;
+	margin: 0 0 0 .5em;
+	background: url(images/delete-icon.png) left bottom no-repeat;
+	cursor: pointer;
+}
+#create_tags li input {
+	box-shadow: none;
+	font: bold .8em 'Lato',sans-serif;
+	height: 3em;
+	border: none;
+	margin: 0;
+}
