@@ -11,7 +11,7 @@ $(function(){
 				if($(this).val() != ''){
 				var newTag = '';
 				newTag = '<li class="tag_done">'+$(this).val()+'<span></span></li>';
-				$('#add_tag').parent('li').before(newTag);
+				$(this).parent('li').before(newTag);
 				$(this).focus('');
 				$(this).val('');
 				}//END CHECKING IF INPUT HAS A VAL

@@ -5,7 +5,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
-	<title>Tags front-end UI</title>
+	<title>Text to Tags like UI - jQuery | Media Milan</title>
 
 	<link rel="stylesheet" href="css/foundation.css" />
 	
